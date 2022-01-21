@@ -40,5 +40,5 @@ export const getServerSideProps: GetServerSideProps<{
 export default function TopStoriesIndex({
   error,
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
-  return '<Error statusCode={error} />'
+  return '<Error statusCode={error} />' + error
 }
